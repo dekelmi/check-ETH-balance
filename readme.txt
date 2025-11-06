@@ -1,8 +1,7 @@
-Перед запуском вставьте url своего приложения в .env файл в разделе INFURA_RPC_URL
-(Создать можно на https://developer.metamask.io)
+Before launching, insert your application's URL into the .env file in the INFURA_RPC_URL section
+(You can create it at https://developer.metamask.io)
 
-Запуск в 2 команды
-1. # docker build -t eth-check .
-2. # docker run -p 5090:5090 -it eth-check
-
-Далее просто вводите адрес ETH кошелька и получаете баланс в USD с учетом самого ETH + WETH
+Launch in 2 commands1.
+1. "docker build -t eth-check ."
+2. "docker run -p 5090:5090 -it eth-check"
+Simply enter your ETH wallet address and get your balance in USD, taking into account ETH + WETH
